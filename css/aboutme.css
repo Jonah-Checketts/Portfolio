@@ -1,0 +1,66 @@
+.aboutMain{
+    width: 100%;
+    height: 100vh;
+    padding-top: 150px;
+    text-align: center;
+    background-image: url("images/clip.jpg");
+    background-position-x: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.meP{
+    margin: 0 50px;
+    line-height: 50px;
+    margin-top: 10%;
+}
+#topTable{
+    width: 100;
+    display: table;
+    overflow: hidden;
+}
+#aboutImgLeft{
+    float: left;
+    width: 50%;
+}
+#aboutTextRight{
+    width: 50%;
+    float: right;
+}
+.aboutImgRight{
+    width: 50%;
+    float: right;
+}
+.aboutTextLeft{
+    width: 50%;
+    float: left;
+}
+.row{
+    display: table-cell;
+}
+@media only screen and (max-width: 1280px){
+    #aboutImgLeft{
+        object-fit: cover;
+        width: 100%;
+        height: 500px;
+        display: block;
+        padding-bottom: 100px;
+    }
+    .aboutImgRight{
+        object-fit: cover;
+        width: 100%;
+        height: 500px;
+        padding-bottom: 100px;
+    }
+    #aboutTextRight{
+        float: none;
+        display: block;
+        width: 100%;
+        padding-bottom: 100px;
+    }
+    .aboutTextLeft{
+        width: 100%;
+        float: none;
+        padding-bottom: 100px;
+    }
+}

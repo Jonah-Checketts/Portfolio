@@ -1,0 +1,54 @@
+*{
+    margin: 0 auto;
+}
+.background{
+    height: 120vh;
+    width: 100%;
+    background-image: url("../images/contactbg.jpg");
+    background-position-x: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+}
+.label{
+    color: white;
+}
+.emailMe{
+    padding-top: 10vh;
+    padding-bottom: 50px;
+}
+.inputWrapper{
+    margin: 20px;
+}
+#name{
+    display: inline;
+}
+#age{
+    display: inline;
+}
+#email{
+    width: 70%;
+}
+#topic{
+    width: 70%;
+}
+#content{
+    width: 70%;
+    height: 30vh;
+}
+input{
+    border-radius: 3px;
+    border: none;
+    padding: 3px;
+    margin: 20px;
+}
+.block{
+    display: block;
+    margin-left: 50%;
+    transform: translate(-50%,0);
+}
+@media only screen and (max-width: 980px){
+    .emailMe{
+        padding-top: 30vh;
+    }
+}

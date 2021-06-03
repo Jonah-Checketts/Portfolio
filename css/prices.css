@@ -1,0 +1,47 @@
+*{
+    margin: 0 auto;
+    font-family: Montserrat;
+}
+.prices{
+    width: 80%;
+    height: auto;
+    margin-top: 200px;
+    text-align: center;
+}
+.flexList{
+    display: flex;
+    width: 100%;
+    height: auto;
+    padding: 0;
+    list-style: none;
+    overflow: hidden;
+    flex-wrap: wrap;
+    margin-bottom: 50px;
+}
+.flexItem{
+    flex: 25%;
+    margin: 10px;
+    height: auto;
+    text-align: center;
+    border: 2px solid #56789a
+}
+.alignleft{
+    text-align: left;
+    list-style-type: disc;
+}
+.Product{
+    font-size: 32px;
+    text-transform: uppercase;
+    text-decoration: underline;
+}
+.includes{
+    margin: 30px 5px;
+}
+ul li h3 {
+    margin: 20px;
+}
+@media only screen and (max-width: 1220px){
+    .flexItem{
+        flex: 100%;
+    }
+}
