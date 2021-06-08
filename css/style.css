@@ -1,4 +1,4 @@
-﻿*{
+*{
     margin: 0 auto;
     font-family: Montserrat;
 }
@@ -24,7 +24,7 @@
     animation-iteration-count: 1;
 }
 #navigation{
-    width: 75%;
+    width: 40%;
     height: 100%;
     position: absolute;
     right: 0;
@@ -112,17 +112,41 @@
     top: 0;
     z-index: -1;
 }
-#innovation{
+#intro{
     color: #45a29e;
     font-size: 64px;
     text-transform: uppercase;
+    position: absolute;
     font-weight: 100;
+    transition: 0.5s;
+    transition-delay: 0.25s;
+}
+#name{
+    color: #45a29e;
+    position: absolute;
+    opacity: 0;
+    font-size: 64px;
+    transition: 0.5s;
+    text-transform: uppercase;
 }
 #inoWrapper{
     position: absolute;
     left: 10%;
     top: 450px;
     transform: translate(0,-50%);
+}
+#inoWrapper:hover  #name{
+    opacity: 1;
+    transition: 1s;
+    transition-delay: 0.5s;
+}
+#inoWrapper:hover  #intro{
+    opacity: 0;
+    transition: 1s;
+}
+#inoWrapper:hover #infoButton{
+    margin-top: 180px;
+    transition-delay: 1s;
 }
 strong{
     font-weight: 900;
@@ -135,7 +159,7 @@ strong{
     float: left;
     text-align: center;
     padding: 10px 20px;
-    margin: 20px 0;
+    margin: 240px 0;
     transition: 0.5s;
     color: #45a29e;
     font-size: 24px;
