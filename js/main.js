@@ -7,7 +7,7 @@ function setup() {
 function dropDown() {
     var element = document.getElementById("dropDown");
     if (element.style.height === "0px") {
-        element.style.height = "380px";
+        element.style.height = "200px";
     } else {
         element.style.height = "0px";
     }
@@ -16,7 +16,7 @@ function dropDown() {
 window.onscroll = function () {slideUp()}
 
 function slideUp() {
-    if (document.body.scrollTop > 275 || document.documentElement.scrollTop > 275) {
+    if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
         document.getElementById("section2").style.marginTop = "700px";
         document.getElementById("section2").style.opacity = 1;
     } else {
